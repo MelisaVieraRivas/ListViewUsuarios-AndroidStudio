@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"/>
+
+
+    <EditTextPreference android:title="Nombre del dispositivo"
+        android:key="Dueño"
+        android:summary="Introduce nombre"></EditTextPreference>
+
+    <CheckBoxPreference android:title="Modo Oscuro"
+        android:summary="Modo Pantalla"
+        android:key="Osc" />
+
+    <ListPreference     android:title="País"
+        android:summary="Selecciona  País"
+        android:key="Pais"
+        android:defaultValue="1"
+        android:entries="@array/listKeys"
+        android:entryValues="@array/listValues" />
+
+</PreferenceScreen>
